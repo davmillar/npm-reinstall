@@ -74,9 +74,9 @@
     "execa": "^5.0.0",
     "has-pnpm": "^1.1.1",
     "has-yarn": "^2.1.0",
-    "ora": "^5.0.0",
+    "ora": "^5.4.1",
     "update-notifier": "^5.0.0",
-    "yargs": "^15.0.0"
+    "yargs": "^16.0.0"
   },
   "resolutions": {
     "@danielbayerlein/caniuse-yarn/update-notifier": "^5.0.0",
@@ -84,7 +84,7 @@
     "chalk": "^4.0.0",
     "glob": "8.1.0",
     "ignore-walk/minimatch": "^3.1.2",
-    "jsdom": "^16.0.0",
+    "jsdom": "^16.7.0",
     "jsdom/data-urls": "^3.0.0",
     "meow": "^7.0.0",
     "micromatch": "^4.0.7",
