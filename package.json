@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "rimraf dist/*",
     "build": "tsc",
-    "pretest": "npm run build && ts-node ./script/prepare-test.ts",
+    "pretest": "npm run build && ts-node-script ./script/prepare-test.ts",
     "test": "jest --verbose"
   },
   "repository": {
@@ -52,24 +52,24 @@
     "@types/signale": "^1.4.7",
     "@types/update-notifier": "^2.5.0",
     "@types/yargs": "^15.0.0",
-    "ansi-escapes": "^4.1.0",
+    "ansi-escapes": "^4.3.2",
     "babel-jest": "^24.8.0",
     "chalk-animation": "^1.6.0",
     "cross-env": "^7.0.3",
-    "jest": "^25.0.0",
+    "jest": "^27.0.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2",
     "signale": "^1.4.0",
-    "ts-node": "^8.4.1",
+    "ts-node": "^10.0.0",
     "tsconfig-gluons": "^1.0.1",
     "tslint": "^5.20.1",
     "tslint-config-gluons": "^2.1.0",
-    "typescript": "^3.4.5"
+    "typescript": "^4.0.0"
   },
   "dependencies": {
     "@danielbayerlein/caniuse-yarn": "^1.1.0",
     "caniuse-pnpm": "^1.1.0",
-    "chalk": "^2.4.2",
+    "chalk": "^4.0.0",
     "del": "^6.1.1",
     "execa": "^5.0.0",
     "has-pnpm": "^1.1.1",
@@ -80,14 +80,20 @@
   },
   "resolutions": {
     "@danielbayerlein/caniuse-yarn/update-notifier": "^5.0.0",
+    "babel-jest/@jest/transform": "^27.5.1",
+    "chalk": "^4.0.0",
     "glob": "8.1.0",
-    "ignore-walk/minimatch": "^3.1.1",
+    "ignore-walk/minimatch": "^3.1.2",
     "jsdom": "^16.0.0",
+    "jsdom/data-urls": "^3.0.0",
+    "meow": "^7.0.0",
+    "micromatch": "^4.0.7",
     "minimist": "^1.2.6",
     "mkdirp": "^0.5.4",
     "nopt": "^6.0.0",
+    "package-json": "^7.0.0",
     "shelljs": "^0.8.5",
-    "test-exclude/minimatch": "^3.1.1",
-    "tslint/minimatch": "^3.1.1"
+    "test-exclude/minimatch": "^3.1.2",
+    "tslint/minimatch": "^3.1.2"
   }
 }
