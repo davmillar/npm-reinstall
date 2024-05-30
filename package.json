@@ -51,7 +51,7 @@
     "@types/node": "^12",
     "@types/signale": "^1.4.7",
     "@types/update-notifier": "^2.5.0",
-    "@types/yargs": "^15.0.0",
+    "@types/yargs": "^16.0.0",
     "ansi-escapes": "^4.3.2",
     "babel-jest": "^24.8.0",
     "chalk-animation": "^1.6.0",
@@ -76,7 +76,7 @@
     "has-yarn": "^2.1.0",
     "ora": "^5.4.1",
     "update-notifier": "^5.0.0",
-    "yargs": "^16.0.0"
+    "yargs": "^17.0.0"
   },
   "resolutions": {
     "@danielbayerlein/caniuse-yarn/update-notifier": "^5.0.0",
