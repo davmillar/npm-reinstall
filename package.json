@@ -79,6 +79,7 @@
     "yargs": "^17.0.0"
   },
   "resolutions": {
+    "@babel/traverse": "^7.23.2",
     "@danielbayerlein/caniuse-yarn/update-notifier": "^5.0.0",
     "babel-jest/@jest/transform": "^27.5.1",
     "chalk": "^4.0.0",
