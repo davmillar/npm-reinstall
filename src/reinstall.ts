@@ -84,7 +84,7 @@ export default async function reinstall(argv: Arguments<Argv>) {
 
 	try {
 		if ((global || save || saveDev) && argv._.length > 0) {
-			const packages = argv._; // Name of packages
+			const packages = argv._.map(input => String(input)); // Name of packages
 			const mode: Mode = global ? 'GLOBAL' : save ? 'SAVE' : 'SAVE_DEV';
 
 			await run(command, mode, packages, verbose);
