@@ -79,7 +79,10 @@
     "yargs": "^15.0.0"
   },
   "resolutions": {
+    "jsdom": "^16.0.0",
+    "minimatch": "^3.1.1",
     "minimist": "^1.2.6",
-    "mkdirp": "^0.5.4"
+    "mkdirp": "^0.5.4",
+    "shelljs": "^0.8.5"
   }
 }
